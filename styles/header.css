@@ -49,18 +49,25 @@ display: none;
 
 .lista__menu-link{
     color: var(--roxo);
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-.container_titulo{
-    display:none;
+.container__titulo{
+    display: none;
 }
 
-@media screen and(min-width:1024px){
-    
- .container__titulo{
+@media screen and (min-width:1024px){
+
+    .container__titulo{
     display: block;
     font-family: var(--fonte-secundaria);
     font-size: 30px;
     font-weight: 300;
+    }
+    .container__titulo--negrito{
+        font-weight: 400;
+    }
+
 
 }
