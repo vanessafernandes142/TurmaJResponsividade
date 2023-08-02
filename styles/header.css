@@ -18,6 +18,7 @@
 .conteiner{
     display: flex;
     justify-content: space-between;
+    align-items: center ;
 }
 
 .conteiner__imagem{
@@ -50,12 +51,12 @@ display: none;
     color: var(--roxo);
 }
 
-.container_titulo{
+.conteiner_titulo{
     display:none;
 }
 
 @media screen and(min-width:1024px){
     
 
-    
+
 }
