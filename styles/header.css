@@ -51,12 +51,16 @@ display: none;
     color: var(--roxo);
 }
 
-.conteiner_titulo{
+.container_titulo{
     display:none;
 }
 
 @media screen and(min-width:1024px){
     
-
+ .container__titulo{
+    display: block;
+    font-family: var(--fonte-secundaria);
+    font-size: 30px;
+    font-weight: 300;
 
 }
