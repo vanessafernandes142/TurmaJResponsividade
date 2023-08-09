@@ -70,4 +70,20 @@ display: none;
     }
 
 
+
+
+
+
+    .opcoes{
+        display: flex;
+    }
+    .opcoes_item
+    padding: 0 1em ;
+    text-transform: uppercase;
+    color: var(--preto);
+}
+.opcoes_link{
+    color:var(--preto);
+    text-decoration: none;
+}
 }
